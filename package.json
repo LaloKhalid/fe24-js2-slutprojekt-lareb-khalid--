@@ -1,0 +1,19 @@
+{
+  "name": "scrumboard02",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.14.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "firebase": "^11.6.0"
+  }
+}

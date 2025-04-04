@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Scrum Board</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <!-- No need to include Firebase CDN links if you're bundling with Parcel -->
+        <!-- <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js"></script> -->
+        <!-- <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore.js"></script> -->
+
+        <!-- Use only the TypeScript module for index.ts -->
+        <script type="module" src="./index.ts" defer></script>
+    </head>
+    
+<body>
+    <div class="container">
+        <div class="column" id="new-tasks">
+            <h2>New Tasks</h2>
+            <!-- New tasks will be displayed here -->
+        </div>
+        <div class="column" id="in-progress">
+            <h2>In Progress</h2>
+            <!-- In-progress tasks will be displayed here -->
+        </div>
+        <div class="column" id="completed">
+            <h2>Completed</h2>
+            <!-- Completed tasks will be displayed here -->
+        </div>
+    </div>
+</body>
+</html>
